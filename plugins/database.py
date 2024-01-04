@@ -17,7 +17,7 @@ class Database:
             id = id,
             name = name,
             ban_status=dict(
-                is_banned=False,
+                is_banned=True,
                 ban_reason="",
             ),
         )
