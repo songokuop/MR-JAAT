@@ -1,6 +1,6 @@
-# VJ-ChatGPT-Bot
+# @THE_AI_BOTZ
 
-**A ChatGPT Telegram Bot. Model - GPT 3.5 Turbo**
+**A ChatGPT Telegram Bot. Model - GPT 4 Turbo**
 
 #### Environment Variables
 
@@ -16,12 +16,10 @@
 - <b>`/start` : check bot is alive or not, know about bot
 - `/broadcast` : reply this command to your broadcast message in bot.</b>
 
-## How To Make Your Own [Video Tutorial](https://youtube.com/@Tech_VJ)
+## OWNER [AI BOTZ OWNER](https://t.me/Ai_botz_owner_bot)
 
-## Update Channel [VJ Botz](https://telegram.me/vj_botz)
+## Update Channel [AI BOTZ](https://t.em/the_ai_botz)
 
-## Support Group [VJ Support](https://telegram.me/vj_bot_disscussion)
+## Support Group [AI BOTZ SUPPORT](https://t.me/AI_BOTZ_SUPPORT)
 
-## Contact Owner [Tech VJ](https://telegram.me/kingvj01)
-
-# Credit - [Tech VJ](https://telegram.me/kingvj01)
+## AI BOTZ MENU [Tech VJ](https://t.me/ai_botz_menu_bot)
