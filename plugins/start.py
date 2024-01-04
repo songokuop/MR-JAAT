@@ -9,7 +9,7 @@ from pyrogram.types import (
 )
 
 
-LOG_TEXT = """<b>#NewUser
+LOG_TEXT = """<b>#NewUser CHATGPT USER
     
 ID - <code>{}</code>
 
