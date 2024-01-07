@@ -29,7 +29,7 @@ async def ai_answer(client, message):
                     max_tokens=1200,  # Increase the value of max_tokens to allow for longer responses
                     temperature=0.6
                 )
-                footer_credit = "<b><a href='https://t.me/THE_AI_BOTZ'>• AI BOTZ •</a>⥈<a href='https://t.me/AI_BOTZ_MENU_BOT'>• OPEN AI MENU •</a></b>"
+                footer_credit = "<b>𓍊𓋼𓍊𓍊𓋼𓍊𓋼𓍊𓋼𓍊𓆏𓍊𓋼𓍊𓋼𓍊𓍊𓋼𓍊𓋼𓍊</b>"
                 ai_response = response.choices[0].message.content.strip()
                 await msg.delete()
                 await send_message_in_chunks(client, message.chat.id, f"**RESULT** 👇\n\n{ai_response}\n\n{footer_credit}")
