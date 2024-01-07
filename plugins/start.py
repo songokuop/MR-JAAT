@@ -29,7 +29,7 @@ async def start_message(c,m):
                         InlineKeyboardButton('🤖 AI BOTZ MENU 🤖', url='https://t.me/AI_BOTZ_MENU_BOT')
                     ],  
                     [
-                        InlineKeyboardButton("🔺MAIN CGANNEL🔺️", url='https://t.me/THE_AI_BOTZ'),
+                        InlineKeyboardButton("🔺MAIN CHANNEL🔺️", url='https://t.me/THE_AI_BOTZ'),
                         InlineKeyboardButton("❓SUPPORT GROUP ❓", url='https://t.me/AI_BOTZ_SUPPORT')
                     ]
                 ]
