@@ -17,7 +17,7 @@ async def ai_answer(client, message):
         user_id = message.from_user.id
         if user_id:
             try:
-                msg = await message.reply_text("⭕ CHAT GPT 4 IS WORKING ■□■●○●▪︎▪︎▪︎•••")
+                msg = await message.reply_text("🔴 WORKING ON YOU QUESTION 🔴")
                 users_message = message.text
                 user_id = message.from_user.id
                 response = openai.ChatCompletion.create(
