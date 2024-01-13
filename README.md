@@ -1,14 +1,10 @@
-<p align="center">
-  <img src="https://telegra.ph/AI-11-01-4.jpg" alt="VJ-filter-bot Logo">
-</p>
 <h1 align="center">
-  VJ-FILTER-BOT
+  AI BOTZ
 </h1>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=WELCOME+TO+AI-BOTZ;A+SIMPLE+AND+POWERFUL+BOT!;CHAT+GPT+4+TURBO;A+CHAT+GPT+BOT+BY+AI-BOTZ!;𝑆𝑡𝑎𝑟𝑡+𝑚𝑒𝑠𝑠𝑎𝑔𝑒+𝑤𝑖𝑡ℎ+𝑝𝑖𝑐!;𝐴𝑛𝑑+𝑚𝑜𝑟𝑒+𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠!)
 </p>
 
-# POWER BY @THE_AI_BOTZ
 
 **A ChatGPT Telegram Bot. Model - `GPT 4 Turbo`**
 
