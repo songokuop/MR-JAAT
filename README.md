@@ -1,4 +1,4 @@
-# @THE_AI_BOTZ
+# POWER BY @THE_AI_BOTZ
 
 **A ChatGPT Telegram Bot. Model - GPT 4 Turbo**
 
