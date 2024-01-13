@@ -37,6 +37,6 @@ async def ai_answer(client, message):
                 
             except Exception as error:
                 print(error)
-                await message.reply_text(f"**An error occurred:**\n\n**{error}**\n\n**Forward This Message To @AI_BOTZ_SUPPORT**")
+                await message.reply_text(f"**An error occurred:**\n\n**{error}**\n\n**Forward This Message To @Movies_Zone_Media**")
     else:
         return
