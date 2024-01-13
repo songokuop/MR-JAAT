@@ -10,7 +10,7 @@
 - `DB_URI` : Mongodb Database Url [Tutorial Watch Here](https://youtu.be/I36_OTWvT2w)
 - `ADMINS` : It mean Admin/Owner Id For Broadcasting Message.
 - `LOG_CHANNEL` : Log channel id start with -100xxxxxx
-- `OPENAI_API` : Get it from here [Generate Api Here](https://platform.openai.com/account/api-keys)</b>
+- `OPENAI_API` :your open ai key</b>
 
 #### Commands To Use Bot
 - <b>`/start` : check bot is alive or not, know about bot
@@ -22,4 +22,4 @@
 
 ## Support Group [AI BOTZ SUPPORT](https://t.me/AI_BOTZ_SUPPORT)
 
-## AI BOTZ MENU [Tech VJ](https://t.me/ai_botz_menu_bot)
+## AI BOTZ MENU [AI BOTZ MENU BOT](https://t.me/ai_botz_menu_bot)
