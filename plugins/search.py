@@ -17,7 +17,7 @@ async def ai_answer(client, message):
         user_id = message.from_user.id
         if user_id:
             try:
-                msg = await message.reply_text("🔴 WORKING ON YOU QUESTION 🔴")
+                msg = await message.reply_text("gpt⁴")
                 users_message = message.text
                 user_id = message.from_user.id
                 response = openai.ChatCompletion.create(
@@ -29,11 +29,11 @@ async def ai_answer(client, message):
                     max_tokens=1200,  # Increase the value of max_tokens to allow for longer responses
                     temperature=0.6
                 )
-                footer_credit = "<b>𓍊𓋼𓍊𓍊𓋼𓍊𓋼𓍊𓋼𓍊𓆏𓍊𓋼𓍊𓋼𓍊𓍊𓋼𓍊𓋼𓍊</b>"
+                footer_credit = "<b>chatgpt⁴</b>"
                 ai_response = response.choices[0].message.content.strip()
                 await msg.delete()
-                await send_message_in_chunks(client, message.chat.id, f"**RESULT** 👇\n\n{ai_response}\n\n{footer_credit}")
-                await send_message_in_chunks(client, LOG_CHANNEL, f"**⭕ ᴀ ᴜsᴇʀ ɴᴀᴍᴇᴅ:** {message.from_user.mention} **ᴡɪᴛʜ ᴜsᴇʀ ɪᴅ -** {user_id}.\n🔍 **ᴀsᴋᴇᴅ ᴍᴇ ᴛʜɪs ǫᴜᴇʀʏ...**👇\n\n🔻 **ǫᴜᴇʀʏ:** `{users_message}`\n\n🔻 **ʜᴇʀᴇ ɪs ᴀɴsᴡᴇʀ ɪ ʀᴇsᴘᴏɴᴅᴇᴅ:**\n🖍️ {ai_response}\n\n\n🔻 **ᴜsᴇʀ ɪᴅ :-** {user_id} \n🔻 **ᴜsᴇʀ ɴᴀᴍᴇ :-** {message.from_user.mention}")
+                await send_message_in_chunks(client, message.chat.id, f"RESULT\n\n{ai_response}\n\n{footer_credit}")
+                await send_message_in_chunks(client, LOG_CHANNEL, f"** ᴀ ᴜsᴇʀ ɴᴀᴍᴇᴅ:** {message.from_user.mention} **ᴡɪᴛʜ ᴜsᴇʀ ɪᴅ -** {user_id}.\n🔍 **ᴀsᴋᴇᴅ ᴍᴇ ᴛʜɪs ǫᴜᴇʀʏ...**👇\n\n🔻 **ǫᴜᴇʀʏ:** `{users_message}`\n\n🔻 **ʜᴇʀᴇ ɪs ᴀɴsᴡᴇʀ ɪ ʀᴇsᴘᴏɴᴅᴇᴅ:**\n🖍️ {ai_response}\n\n\n🔻 **ᴜsᴇʀ ɪᴅ :-** {user_id} \n🔻 **ᴜsᴇʀ ɴᴀᴍᴇ :-** {message.from_user.mention}")
                 
             except Exception as error:
                 print(error)
